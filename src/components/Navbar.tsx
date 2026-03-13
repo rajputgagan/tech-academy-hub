@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.webp";
 
 const menuItems = [
   "Home", "About Us", "All Courses", "Placement", "Our Team", "Blog", "Career", "Contact Us",
@@ -13,8 +14,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <a href="#" className="font-display text-xl font-bold text-primary tracking-tight">
-          Lucky Tech Academy
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="Lucky Tech Academy" className="h-10" />
         </a>
 
         {/* Desktop */}

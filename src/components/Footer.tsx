@@ -1,4 +1,5 @@
 import { MapPin, Mail, Phone, Globe } from "lucide-react";
+import logo from "@/assets/logo.webp";
 
 const Footer = () => (
   <footer className="bg-secondary text-secondary-foreground" id="contact-us">
@@ -6,7 +7,7 @@ const Footer = () => (
       <div className="grid md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <h3 className="font-display text-xl font-bold mb-4">Lucky Tech Academy</h3>
+          <img src={logo} alt="Lucky Tech Academy" className="h-12 mb-4 brightness-0 invert" />
           <p className="text-secondary-foreground/60 text-sm leading-relaxed">
             Empowering students with industry-ready IT skills. Your journey to a successful tech career starts here.
           </p>
