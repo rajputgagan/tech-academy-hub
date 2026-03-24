@@ -35,7 +35,7 @@ const Register = () => {
               <img src={logo} alt="Lucky Tech Academy" className="h-14 mx-auto mb-4" />
             </Link>
             <h1 className="font-display text-2xl font-bold text-foreground">Student Registration</h1>
-            <p className="text-muted-foreground text-sm mt-1">नया account बनाएं और सीखना शुरू करें</p>
+            <p className="text-muted-foreground text-sm mt-1">Create a new account and start learning</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
