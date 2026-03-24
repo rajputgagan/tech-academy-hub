@@ -108,8 +108,8 @@ const Register = () => {
 
           <div className="mt-6 text-center">
             <p className="text-muted-foreground text-sm">
-              पहले से account है?{" "}
-              <Link to="/login" className="text-primary font-semibold hover:underline">Login करें</Link>
+              Already have an account?{" "}
+              <Link to="/login" className="text-primary font-semibold hover:underline">Login Here</Link>
             </p>
           </div>
 

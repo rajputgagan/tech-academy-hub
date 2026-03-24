@@ -68,9 +68,9 @@ const AboutSection = () => (
           Best Coding Institute in Kasganj
         </h2>
         <p className="text-secondary-foreground/70 max-w-3xl mx-auto mt-4 text-lg leading-relaxed">
-          <strong className="text-secondary-foreground">Lucky Tech Academy</strong> — Kasganj का सबसे भरोसेमंद IT Training Institute। 
-          हम students को industry-oriented courses, expert trainers, और 100% placement assistance के साथ एक successful IT career बनाने में मदद करते हैं। 
-          हमारा goal है कि हर student latest technologies सीखे और corporate world में अपनी जगह बनाये।
+          <strong className="text-secondary-foreground">Lucky Tech Academy</strong> — the most trusted IT Training Institute in Kasganj. 
+          We help students build a successful IT career with industry-oriented courses, expert trainers, and 100% placement assistance. 
+          Our goal is for every student to learn the latest technologies and establish themselves in the corporate world.
         </p>
       </motion.div>
 

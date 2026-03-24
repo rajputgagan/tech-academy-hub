@@ -36,7 +36,7 @@ const CoursesSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Our Programs</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">All Courses</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          Industry-oriented courses जो आपको job-ready बनाएं। हर course में practical training, live projects, और placement support included है।
+          Industry-oriented courses designed to make you job-ready. Every course includes practical training, live projects, and placement support.
         </p>
       </motion.div>
 

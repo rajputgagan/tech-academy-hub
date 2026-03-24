@@ -27,7 +27,7 @@ const CareerSection = () => (
         <span className="text-accent font-semibold text-sm tracking-widest uppercase">Career Opportunities</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-secondary-foreground">Build Your IT Career</h2>
         <p className="text-secondary-foreground/70 max-w-2xl mx-auto mt-4">
-          IT industry में career options explore करें। जानें कौन सी roles demand में हैं और कितनी salary मिलती है।
+          Explore career options in the IT industry. Learn which roles are in demand and what salaries they offer.
         </p>
       </motion.div>
 

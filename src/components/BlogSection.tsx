@@ -45,7 +45,7 @@ const BlogSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Knowledge Hub</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">Latest Blog Posts</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          IT industry की latest trends, career tips, और coding tutorials — सब कुछ हिंदी में।
+          Stay updated with the latest IT industry trends, career tips, and coding tutorials.
         </p>
       </motion.div>
 

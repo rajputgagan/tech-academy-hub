@@ -29,7 +29,7 @@ const PlacementSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Career Launch</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">Placement Support</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          हम सिर्फ पढ़ाते नहीं, बल्कि आपको job दिलाने तक साथ देते हैं। हमारी placement cell आपके career को सही direction देती है।
+          We don't just teach — we support you until you land your dream job. Our placement cell gives your career the right direction.
         </p>
       </motion.div>
 
