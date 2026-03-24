@@ -35,13 +35,13 @@ const Register = () => {
               <img src={logo} alt="Lucky Tech Academy" className="h-14 mx-auto mb-4" />
             </Link>
             <h1 className="font-display text-2xl font-bold text-foreground">Student Registration</h1>
-            <p className="text-muted-foreground text-sm mt-1">नया account बनाएं और सीखना शुरू करें</p>
+            <p className="text-muted-foreground text-sm mt-1">Create a new account and start learning</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="text-sm font-medium text-foreground mb-1.5 block">Full Name</label>
-              <Input placeholder="अपना पूरा नाम लिखें" value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} required />
+              <Input placeholder="Enter your full name" value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} required />
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -61,7 +61,7 @@ const Register = () => {
                 onChange={e => setForm(p => ({ ...p, course: e.target.value }))}
                 required
               >
-                <option value="">-- Course चुनें --</option>
+                <option value="">-- Select a Course --</option>
                 <option value="basic-coding">Basic Coding</option>
                 <option value="web-dev">Web Development</option>
                 <option value="devops">DevOps Engineering</option>
@@ -77,7 +77,7 @@ const Register = () => {
               <div className="relative">
                 <Input
                   type={showPass ? "text" : "password"}
-                  placeholder="Password बनाएं"
+                  placeholder="Create a password"
                   value={form.password}
                   onChange={e => setForm(p => ({ ...p, password: e.target.value }))}
                   required
@@ -95,7 +95,7 @@ const Register = () => {
               <label className="text-sm font-medium text-foreground mb-1.5 block">Confirm Password</label>
               <Input
                 type="password"
-                placeholder="Password दोबारा लिखें"
+                placeholder="Re-enter your password"
                 value={form.confirmPassword}
                 onChange={e => setForm(p => ({ ...p, confirmPassword: e.target.value }))}
                 required
@@ -108,8 +108,8 @@ const Register = () => {
 
           <div className="mt-6 text-center">
             <p className="text-muted-foreground text-sm">
-              पहले से account है?{" "}
-              <Link to="/login" className="text-primary font-semibold hover:underline">Login करें</Link>
+              Already have an account?{" "}
+              <Link to="/login" className="text-primary font-semibold hover:underline">Login Here</Link>
             </p>
           </div>
 

@@ -12,7 +12,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Message Sent!", description: "हम जल्द ही आपसे संपर्क करेंगे।" });
+    toast({ title: "Message Sent!", description: "We will get back to you shortly." });
     setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
   };
 
@@ -28,7 +28,7 @@ const ContactSection = () => {
           <span className="text-primary font-semibold text-sm tracking-widest uppercase">Get In Touch</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">Contact Us</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-            किसी भी query के लिए हमसे संपर्क करें। हम आपकी मदद के लिए हमेशा तैयार हैं।
+            Have a question? Feel free to reach out to us. We are always ready to help you.
           </p>
         </motion.div>
 

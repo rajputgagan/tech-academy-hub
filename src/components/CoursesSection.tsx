@@ -3,14 +3,14 @@ import { Code, Server, Globe, Database, Terminal, Smartphone, Brain, Shield } fr
 import { Button } from "@/components/ui/button";
 
 const courses = [
-  { icon: Code, title: "Basic Coding", duration: "3 Months", description: "C, C++, Python basics, Data Structures & Algorithms — coding की foundation मजबूत बनाएं।", tag: "Beginner" },
-  { icon: Globe, title: "Web Development", duration: "6 Months", description: "HTML, CSS, JavaScript, React, Node.js — full-stack web developer बनें।", tag: "Popular" },
-  { icon: Server, title: "DevOps Engineering", duration: "4 Months", description: "Docker, Kubernetes, CI/CD, AWS, Linux — DevOps expert बनें और high-paying jobs पाएं।", tag: "Trending" },
-  { icon: Database, title: "Data Science & AI", duration: "6 Months", description: "Python, Machine Learning, Data Analysis, TensorFlow — AI revolution का हिस्सा बनें।", tag: "Hot" },
-  { icon: Smartphone, title: "App Development", duration: "4 Months", description: "React Native, Flutter — Android & iOS apps बनाना सीखें।", tag: "In-Demand" },
-  { icon: Terminal, title: "Java Full Stack", duration: "6 Months", description: "Core Java, Spring Boot, Hibernate, Microservices — enterprise-level development सीखें।", tag: "Professional" },
-  { icon: Shield, title: "Cyber Security", duration: "4 Months", description: "Ethical Hacking, Network Security, Penetration Testing — digital world को secure करें।", tag: "Advanced" },
-  { icon: Brain, title: "Salesforce", duration: "5 Months", description: "Salesforce Admin, Developer, Lightning — CRM platform में career बनाएं।", tag: "Corporate" },
+  { icon: Code, title: "Basic Coding", duration: "3 Months", description: "C, C++, Python basics, Data Structures & Algorithms — build a strong coding foundation.", tag: "Beginner" },
+  { icon: Globe, title: "Web Development", duration: "6 Months", description: "HTML, CSS, JavaScript, React, Node.js — become a full-stack web developer.", tag: "Popular" },
+  { icon: Server, title: "DevOps Engineering", duration: "4 Months", description: "Docker, Kubernetes, CI/CD, AWS, Linux — become a DevOps expert and land high-paying jobs.", tag: "Trending" },
+  { icon: Database, title: "Data Science & AI", duration: "6 Months", description: "Python, Machine Learning, Data Analysis, TensorFlow — be part of the AI revolution.", tag: "Hot" },
+  { icon: Smartphone, title: "App Development", duration: "4 Months", description: "React Native, Flutter — learn to build Android & iOS applications.", tag: "In-Demand" },
+  { icon: Terminal, title: "Java Full Stack", duration: "6 Months", description: "Core Java, Spring Boot, Hibernate, Microservices — learn enterprise-level development.", tag: "Professional" },
+  { icon: Shield, title: "Cyber Security", duration: "4 Months", description: "Ethical Hacking, Network Security, Penetration Testing — secure the digital world.", tag: "Advanced" },
+  { icon: Brain, title: "Salesforce", duration: "5 Months", description: "Salesforce Admin, Developer, Lightning — build a career in the CRM platform.", tag: "Corporate" },
 ];
 
 const tagColors: Record<string, string> = {
@@ -36,7 +36,7 @@ const CoursesSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Our Programs</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">All Courses</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          Industry-oriented courses जो आपको job-ready बनाएं। हर course में practical training, live projects, और placement support included है।
+          Industry-oriented courses designed to make you job-ready. Every course includes practical training, live projects, and placement support.
         </p>
       </motion.div>
 

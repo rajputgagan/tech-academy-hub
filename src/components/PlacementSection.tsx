@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Briefcase, TrendingUp, Building2, Users, CheckCircle } from "lucide-react";
 
 const placementFeatures = [
-  { icon: Briefcase, title: "100% Placement Assistance", description: "हर student को dedicated placement support मिलता है — resume building से लेकर interview preparation तक।" },
-  { icon: TrendingUp, title: "High Salary Packages", description: "हमारे students ₹3 LPA - ₹12 LPA तक के packages पा रहे हैं top IT companies में।" },
-  { icon: Building2, title: "Top Company Tie-ups", description: "TCS, Infosys, Wipro, HCL, Accenture जैसी companies से हमारे direct tie-ups हैं।" },
-  { icon: Users, title: "Mock Interviews & Training", description: "Regular mock interviews, group discussions, और soft skills training से students को interview-ready बनाते हैं।" },
+  { icon: Briefcase, title: "100% Placement Assistance", description: "Every student receives dedicated placement support — from resume building to interview preparation." },
+  { icon: TrendingUp, title: "High Salary Packages", description: "Our students are securing packages ranging from ₹3 LPA to ₹12 LPA at top IT companies." },
+  { icon: Building2, title: "Top Company Tie-ups", description: "We have direct tie-ups with companies like TCS, Infosys, Wipro, HCL, and Accenture." },
+  { icon: Users, title: "Mock Interviews & Training", description: "Regular mock interviews, group discussions, and soft skills training to make students interview-ready." },
 ];
 
 const placementSteps = [
@@ -29,7 +29,7 @@ const PlacementSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Career Launch</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">Placement Support</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          हम सिर्फ पढ़ाते नहीं, बल्कि आपको job दिलाने तक साथ देते हैं। हमारी placement cell आपके career को सही direction देती है।
+          We don't just teach — we support you until you land your dream job. Our placement cell gives your career the right direction.
         </p>
       </motion.div>
 

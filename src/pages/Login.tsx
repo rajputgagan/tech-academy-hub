@@ -31,7 +31,7 @@ const Login = () => {
               <img src={logo} alt="Lucky Tech Academy" className="h-14 mx-auto mb-4" />
             </Link>
             <h1 className="font-display text-2xl font-bold text-foreground">Student Login</h1>
-            <p className="text-muted-foreground text-sm mt-1">अपने account में login करें</p>
+            <p className="text-muted-foreground text-sm mt-1">Sign in to your account</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -74,8 +74,8 @@ const Login = () => {
 
           <div className="mt-6 text-center">
             <p className="text-muted-foreground text-sm">
-              Account नहीं है?{" "}
-              <Link to="/register" className="text-primary font-semibold hover:underline">Register करें</Link>
+              Don't have an account?{" "}
+              <Link to="/register" className="text-primary font-semibold hover:underline">Register Now</Link>
             </p>
           </div>
 
