@@ -28,7 +28,7 @@ const TeamSection = () => (
         <span className="text-primary font-semibold text-sm tracking-widest uppercase">Meet the Experts</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold mt-2 text-foreground">Our Team</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-          Industry professionals जो अपने years of experience और dedication के साथ आपको best education देते हैं।
+          Industry professionals who deliver the best education with years of experience and dedication.
         </p>
       </motion.div>
 
