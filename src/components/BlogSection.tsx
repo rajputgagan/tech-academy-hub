@@ -4,29 +4,29 @@ import { Button } from "@/components/ui/button";
 
 const blogs = [
   {
-    title: "DevOps क्या है? 2026 में DevOps Engineer कैसे बनें",
-    excerpt: "DevOps एक methodology है जो Development और Operations teams को एक साथ लाता है। जानें कैसे आप DevOps career शुरू कर सकते हैं।",
+    title: "What is DevOps? How to Become a DevOps Engineer in 2026",
+    excerpt: "DevOps is a methodology that brings Development and Operations teams together. Learn how you can start a DevOps career.",
     date: "March 20, 2026",
     author: "Lucky Rajput",
     category: "DevOps",
   },
   {
-    title: "Web Development सीखने का सबसे अच्छा तरीका",
-    excerpt: "HTML, CSS, JavaScript से शुरू करें और React, Node.js तक पहुँचें। Step-by-step guide for beginners।",
+    title: "The Best Way to Learn Web Development",
+    excerpt: "Start with HTML, CSS, JavaScript and progress to React and Node.js. A step-by-step guide for beginners.",
     date: "March 15, 2026",
     author: "Ajay Shakya",
     category: "Web Dev",
   },
   {
-    title: "Data Science vs Software Development — कौन सा career बेहतर है?",
-    excerpt: "दोनों fields में opportunities हैं, लेकिन आपके लिए कौन सा सही है? जानें salary, growth, और scope।",
+    title: "Data Science vs Software Development — Which Career is Better?",
+    excerpt: "Both fields have great opportunities, but which one is right for you? Learn about salary, growth, and scope.",
     date: "March 10, 2026",
     author: "Devendra Singh",
     category: "Career",
   },
   {
-    title: "Coding शुरू करने के लिए 5 Best Programming Languages",
-    excerpt: "Python, JavaScript, Java, C++, और Go — beginners के लिए कौन सी language सबसे अच्छी है?",
+    title: "5 Best Programming Languages to Start Coding",
+    excerpt: "Python, JavaScript, Java, C++, and Go — which language is the best for beginners?",
     date: "March 5, 2026",
     author: "Lucky Rajput",
     category: "Coding",
