@@ -61,7 +61,7 @@ const Register = () => {
                 onChange={e => setForm(p => ({ ...p, course: e.target.value }))}
                 required
               >
-                <option value="">-- Course चुनें --</option>
+                <option value="">-- Select a Course --</option>
                 <option value="basic-coding">Basic Coding</option>
                 <option value="web-dev">Web Development</option>
                 <option value="devops">DevOps Engineering</option>
