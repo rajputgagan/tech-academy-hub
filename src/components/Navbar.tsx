@@ -29,7 +29,7 @@ const Navbar = () => {
               {item}
             </a>
           ))}
-          <Button size="sm">Student Login</Button>
+          <a href="/login"><Button size="sm">Student Login</Button></a>
         </div>
 
         {/* Mobile toggle */}
