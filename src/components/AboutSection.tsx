@@ -48,9 +48,9 @@ const Counter = ({ target, suffix }: { target: number; suffix: string }) => {
 };
 
 const highlights = [
-  { icon: Target, title: "Our Mission", description: "Kasganj और आसपास के क्षेत्र के students को world-class IT education देना, ताकि वो industry-ready बनें और अपने career में सफलता हासिल करें।" },
-  { icon: Eye, title: "Our Vision", description: "एक ऐसा institute बनाना जो हर student को technology की power से empower करे और उन्हें global opportunities के लिए तैयार करे।" },
-  { icon: BookOpen, title: "Our Approach", description: "Practical + Theory based learning approach जहाँ students real-world projects पर काम करते हैं, industry experts से सीखते हैं और placement-ready बनते हैं।" },
+  { icon: Target, title: "Our Mission", description: "To provide world-class IT education to students in Kasganj and surrounding areas, making them industry-ready and helping them achieve career success." },
+  { icon: Eye, title: "Our Vision", description: "To build an institute that empowers every student with the power of technology and prepares them for global opportunities." },
+  { icon: BookOpen, title: "Our Approach", description: "A practical + theory-based learning approach where students work on real-world projects, learn from industry experts, and become placement-ready." },
 ];
 
 const AboutSection = () => (
