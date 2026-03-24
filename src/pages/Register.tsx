@@ -41,7 +41,7 @@ const Register = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="text-sm font-medium text-foreground mb-1.5 block">Full Name</label>
-              <Input placeholder="अपना पूरा नाम लिखें" value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} required />
+              <Input placeholder="Enter your full name" value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} required />
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div>
