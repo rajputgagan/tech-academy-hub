@@ -77,7 +77,7 @@ const Register = () => {
               <div className="relative">
                 <Input
                   type={showPass ? "text" : "password"}
-                  placeholder="Password बनाएं"
+                  placeholder="Create a password"
                   value={form.password}
                   onChange={e => setForm(p => ({ ...p, password: e.target.value }))}
                   required
