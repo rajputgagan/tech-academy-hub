@@ -95,7 +95,7 @@ const Register = () => {
               <label className="text-sm font-medium text-foreground mb-1.5 block">Confirm Password</label>
               <Input
                 type="password"
-                placeholder="Password दोबारा लिखें"
+                placeholder="Re-enter your password"
                 value={form.confirmPassword}
                 onChange={e => setForm(p => ({ ...p, confirmPassword: e.target.value }))}
                 required
