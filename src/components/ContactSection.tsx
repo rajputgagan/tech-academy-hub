@@ -12,7 +12,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Message Sent!", description: "हम जल्द ही आपसे संपर्क करेंगे।" });
+    toast({ title: "Message Sent!", description: "We will get back to you shortly." });
     setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
   };
 
