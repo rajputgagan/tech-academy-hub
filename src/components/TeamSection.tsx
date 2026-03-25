@@ -40,7 +40,7 @@ const TeamSection = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.08 }}
-            className="bg-card rounded-xl overflow-hidden card-elevated border border-border group"
+            className="bg-card rounded-2xl overflow-hidden card-elevated border border-border group hover:border-primary/30 transition-colors"
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <img
@@ -48,13 +48,12 @@ const TeamSection = () => (
                 alt={m.name}
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
-              {/* Overlay on hover */}
-              <div className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center hover:bg-accent/40 transition-colors">
-                  <Linkedin className="text-secondary-foreground" size={18} />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 gap-3">
+                <a href="#" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center hover:bg-primary transition-colors">
+                  <Linkedin className="text-white" size={18} />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center hover:bg-accent/40 transition-colors">
-                  <Mail className="text-secondary-foreground" size={18} />
+                <a href="#" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center hover:bg-primary transition-colors">
+                  <Mail className="text-white" size={18} />
                 </a>
               </div>
             </div>

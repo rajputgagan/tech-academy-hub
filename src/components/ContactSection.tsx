@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Mail, Phone, Globe, Clock, Send } from "lucide-react";
+import { MapPin, Mail, Phone, Globe, Clock, Send, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -17,7 +17,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="section-padding bg-muted" id="contact-us">
+    <section className="section-padding bg-muted/50" id="contact-us">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -38,20 +38,22 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-card rounded-xl p-8 card-elevated border border-border"
+            className="bg-card rounded-2xl p-8 card-elevated border border-border"
           >
-            <h3 className="font-display font-bold text-foreground text-xl mb-6">Send us a Message</h3>
+            <h3 className="font-display font-bold text-foreground text-xl mb-6 flex items-center gap-2">
+              <MessageCircle className="text-primary" size={22} /> Send us a Message
+            </h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid sm:grid-cols-2 gap-4">
-                <Input placeholder="Your Name *" value={formData.name} onChange={e => setFormData(p => ({ ...p, name: e.target.value }))} required />
-                <Input type="email" placeholder="Email Address *" value={formData.email} onChange={e => setFormData(p => ({ ...p, email: e.target.value }))} required />
+                <Input className="rounded-xl" placeholder="Your Name *" value={formData.name} onChange={e => setFormData(p => ({ ...p, name: e.target.value }))} required />
+                <Input className="rounded-xl" type="email" placeholder="Email Address *" value={formData.email} onChange={e => setFormData(p => ({ ...p, email: e.target.value }))} required />
               </div>
               <div className="grid sm:grid-cols-2 gap-4">
-                <Input placeholder="Phone Number" value={formData.phone} onChange={e => setFormData(p => ({ ...p, phone: e.target.value }))} />
-                <Input placeholder="Subject *" value={formData.subject} onChange={e => setFormData(p => ({ ...p, subject: e.target.value }))} required />
+                <Input className="rounded-xl" placeholder="Phone Number" value={formData.phone} onChange={e => setFormData(p => ({ ...p, phone: e.target.value }))} />
+                <Input className="rounded-xl" placeholder="Subject *" value={formData.subject} onChange={e => setFormData(p => ({ ...p, subject: e.target.value }))} required />
               </div>
-              <Textarea placeholder="Your Message *" rows={5} value={formData.message} onChange={e => setFormData(p => ({ ...p, message: e.target.value }))} required />
-              <Button type="submit" size="lg" className="w-full">
+              <Textarea className="rounded-xl" placeholder="Your Message *" rows={5} value={formData.message} onChange={e => setFormData(p => ({ ...p, message: e.target.value }))} required />
+              <Button type="submit" size="lg" className="w-full rounded-xl">
                 <Send size={16} /> Send Message
               </Button>
             </form>
@@ -62,7 +64,7 @@ const ContactSection = () => {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-6"
+            className="space-y-4"
           >
             {[
               { icon: MapPin, label: "Address", value: "Sukhendra Sadan, Roadways Bus Stand, Kasganj, Uttar Pradesh" },
@@ -71,9 +73,9 @@ const ContactSection = () => {
               { icon: Globe, label: "Website", value: "www.luckytechacademy.in", href: "https://www.luckytechacademy.in" },
               { icon: Clock, label: "Working Hours", value: "Mon - Sat: 9:00 AM - 7:00 PM" },
             ].map((item, i) => (
-              <div key={i} className="bg-card rounded-xl p-5 card-elevated border border-border flex items-start gap-4">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
-                  <item.icon className="text-primary" size={22} />
+              <div key={i} className="bg-card rounded-2xl p-5 card-elevated border border-border flex items-start gap-4 hover:border-primary/30 transition-colors">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                  <item.icon className="text-primary" size={20} />
                 </div>
                 <div>
                   <h4 className="font-display font-semibold text-foreground text-sm">{item.label}</h4>
@@ -86,12 +88,11 @@ const ContactSection = () => {
               </div>
             ))}
 
-            {/* Map Embed */}
-            <div className="bg-card rounded-xl overflow-hidden card-elevated border border-border">
+            <div className="bg-card rounded-2xl overflow-hidden card-elevated border border-border">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14073.5!2d78.6569!3d27.8077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974b0a3b3a7e8a9%3A0x3e3e3e3e3e3e3e3e!2sKasganj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
-                height="200"
+                height="180"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
